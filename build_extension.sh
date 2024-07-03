@@ -29,8 +29,8 @@ build_firefox() {
     mkdir -p ./extension_packages/ff_build
     cp manifest-firefox.json ./extension_packages/ff_build/manifest.json
     cp ./*.png ./*.js ./*.html ./*.md LICENSE ./extension_packages/ff_build/
-    zip -j ./extension_packages/skylink-firefox.zip ./extension_packages/ff_build/*
-    printf "\nFirefox extension available at ./extension_packages/skylink-firefox.zip\n"
+    zip -j ./extension_packages/skylink-cloudflare-firefox.zip ./extension_packages/ff_build/*
+    printf "\nFirefox extension available at ./extension_packages/skylink-cloudflare-firefox.zip\n"
 }
 
 build_chrome() {
@@ -38,8 +38,8 @@ build_chrome() {
     mkdir -p ./extension_packages/chrome_build
     cp manifest.json ./extension_packages/chrome_build/manifest.json
     cp ./*.png ./*.js ./*.html ./*.md LICENSE ./extension_packages/chrome_build/
-    zip -j ./extension_packages/skylink-chrome.zip ./extension_packages/chrome_build/*
-    printf "\nChrome extension available at ./extension_packages/skylink-chrome.zip\n"
+    zip -j ./extension_packages/skylink-cloudflare-chrome.zip ./extension_packages/chrome_build/*
+    printf "\nChrome extension available at ./extension_packages/skylink-cloudflare-chrome.zip\n"
 }
 
 display_help() {

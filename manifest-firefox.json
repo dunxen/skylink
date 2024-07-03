@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "SkyLink - Bluesky DID Detector",
-  "short_name": "SkyLink",
+  "name": "SkyLink - Bluesky DID Detector-Cloudflare",
+  "short_name": "SkyLink-Cloudflare",
   "version": "1.4.2",
   "author": "jesse@adhdjesse.com",
   "action": {
