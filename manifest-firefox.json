@@ -24,7 +24,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "jesse@adhdjesse.com",
+      "id": "skylink-cloudflare",
       "strict_min_version": "109.0"
     }
   }
