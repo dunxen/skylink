@@ -48,7 +48,7 @@ function isValidDomain(domain) {
 async function checkForDIDDNS(domain) {
   try {
     const response = await fetch(
-      `https://dns.google/resolve?name=_atproto.${domain}&type=TXT`
+      `https://1.1.1.1/dns-query?name=_atproto.${domain}&type=TXT`
     )
     const data = await response.json()
 
